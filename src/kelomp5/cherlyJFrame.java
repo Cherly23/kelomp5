@@ -72,7 +72,7 @@ public class cherlyJFrame extends javax.swing.JFrame {
                 tFotoMouseClicked(evt);
             }
         });
-        getContentPane().add(tFoto, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 100, 170, 210));
+        getContentPane().add(tFoto, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 100, 180, 210));
 
         jLabel7.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(204, 255, 255));

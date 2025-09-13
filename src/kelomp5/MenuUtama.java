@@ -26,11 +26,23 @@ public class MenuUtama extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        cherly = new javax.swing.JButton();
         btnTutup = new javax.swing.JButton();
+        cherly = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        btnTutup.setBackground(new java.awt.Color(0, 0, 153));
+        btnTutup.setForeground(new java.awt.Color(255, 255, 255));
+        btnTutup.setText("Tutup");
+        btnTutup.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnTutupActionPerformed(evt);
+            }
+        });
+        getContentPane().add(btnTutup, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 330, -1, -1));
 
         cherly.setText("CHERLY");
         cherly.addActionListener(new java.awt.event.ActionListener() {
@@ -38,37 +50,10 @@ public class MenuUtama extends javax.swing.JFrame {
                 cherlyActionPerformed(evt);
             }
         });
+        getContentPane().add(cherly, new org.netbeans.lib.awtextra.AbsoluteConstraints(302, 203, 170, 30));
 
-        btnTutup.setText("Tutup");
-        btnTutup.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnTutupActionPerformed(evt);
-            }
-        });
-
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap(329, Short.MAX_VALUE)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addComponent(cherly)
-                        .addGap(175, 175, 175))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addComponent(btnTutup)
-                        .addGap(27, 27, 27))))
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(23, 23, 23)
-                .addComponent(btnTutup)
-                .addGap(37, 37, 37)
-                .addComponent(cherly)
-                .addContainerGap(281, Short.MAX_VALUE))
-        );
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/p.png"))); // NOI18N
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 700, 400));
 
         pack();
         setLocationRelativeTo(null);
@@ -122,5 +107,6 @@ public class MenuUtama extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnTutup;
     private javax.swing.JButton cherly;
+    private javax.swing.JLabel jLabel1;
     // End of variables declaration//GEN-END:variables
 }
