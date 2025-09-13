@@ -26,13 +26,21 @@ public class MenuUtama extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jLabel1 = new javax.swing.JLabel();
         btnTutup = new javax.swing.JButton();
         cherly = new javax.swing.JButton();
-        jLabel1 = new javax.swing.JLabel();
+        jButton1 = new javax.swing.JButton();
+        jButton2 = new javax.swing.JButton();
+        jButton3 = new javax.swing.JButton();
+        jButton4 = new javax.swing.JButton();
+        jButton5 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/Halaman Login.png"))); // NOI18N
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 700, 400));
 
         btnTutup.setBackground(new java.awt.Color(0, 0, 153));
         btnTutup.setForeground(new java.awt.Color(255, 255, 255));
@@ -42,7 +50,7 @@ public class MenuUtama extends javax.swing.JFrame {
                 btnTutupActionPerformed(evt);
             }
         });
-        getContentPane().add(btnTutup, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 330, -1, -1));
+        getContentPane().add(btnTutup, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 310, 80, 30));
 
         cherly.setText("CHERLY");
         cherly.addActionListener(new java.awt.event.ActionListener() {
@@ -50,10 +58,32 @@ public class MenuUtama extends javax.swing.JFrame {
                 cherlyActionPerformed(evt);
             }
         });
-        getContentPane().add(cherly, new org.netbeans.lib.awtextra.AbsoluteConstraints(302, 203, 170, 30));
+        getContentPane().add(cherly, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 260, 140, 30));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/p.png"))); // NOI18N
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 700, 400));
+        jButton1.setText("AZIZ");
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(515, 200, 130, 30));
+
+        jButton2.setText("ICUL");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(515, 140, 130, 30));
+
+        jButton3.setText("AZKA");
+        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 140, 140, 30));
+
+        jButton4.setText("TONI");
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton4ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 200, 140, 30));
+
+        jButton5.setText("CIALIN");
+        getContentPane().add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(355, 260, 130, 30));
 
         pack();
         setLocationRelativeTo(null);
@@ -68,6 +98,14 @@ public class MenuUtama extends javax.swing.JFrame {
         // TODO add your handling code here:
         System.exit(0);
     }//GEN-LAST:event_btnTutupActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton4ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -107,6 +145,11 @@ public class MenuUtama extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnTutup;
     private javax.swing.JButton cherly;
+    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton4;
+    private javax.swing.JButton jButton5;
     private javax.swing.JLabel jLabel1;
     // End of variables declaration//GEN-END:variables
 }

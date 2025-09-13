@@ -97,20 +97,23 @@ public class cherlyJFrame extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(204, 255, 255));
         jLabel1.setText("PROFIL CHERLY");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 30, 180, 40));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 30, 140, 50));
 
-        jLabel12.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/PPT Netral.jpeg"))); // NOI18N
-        jLabel12.setRequestFocusEnabled(false);
-        getContentPane().add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 700, -1));
-
-        btnTutup.setText("jButton1");
+        btnTutup.setBackground(new java.awt.Color(0, 51, 51));
+        btnTutup.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        btnTutup.setForeground(new java.awt.Color(204, 255, 255));
+        btnTutup.setText("BACK");
         btnTutup.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnTutupActionPerformed(evt);
             }
         });
-        getContentPane().add(btnTutup, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 310, 50, 50));
+        getContentPane().add(btnTutup, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 280, 70, 30));
+
+        jLabel12.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/PPT Netral.jpeg"))); // NOI18N
+        jLabel12.setRequestFocusEnabled(false);
+        getContentPane().add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 700, -1));
 
         pack();
         setLocationRelativeTo(null);
