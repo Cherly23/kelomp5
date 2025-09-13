@@ -29,18 +29,18 @@ public class MenuUtama extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         btnTutup = new javax.swing.JButton();
         cherly = new javax.swing.JButton();
-        jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
-        jButton4 = new javax.swing.JButton();
-        jButton5 = new javax.swing.JButton();
+        aziz = new javax.swing.JButton();
+        ikhul = new javax.swing.JButton();
+        azka = new javax.swing.JButton();
+        toni = new javax.swing.JButton();
+        cialin = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/Halaman Login.png"))); // NOI18N
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 700, 400));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1000, 500));
 
         btnTutup.setBackground(new java.awt.Color(0, 0, 153));
         btnTutup.setForeground(new java.awt.Color(255, 255, 255));
@@ -50,7 +50,7 @@ public class MenuUtama extends javax.swing.JFrame {
                 btnTutupActionPerformed(evt);
             }
         });
-        getContentPane().add(btnTutup, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 310, 80, 30));
+        getContentPane().add(btnTutup, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 390, 120, 30));
 
         cherly.setText("CHERLY");
         cherly.addActionListener(new java.awt.event.ActionListener() {
@@ -58,32 +58,32 @@ public class MenuUtama extends javax.swing.JFrame {
                 cherlyActionPerformed(evt);
             }
         });
-        getContentPane().add(cherly, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 260, 140, 30));
+        getContentPane().add(cherly, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 320, 200, 50));
 
-        jButton1.setText("AZIZ");
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(515, 200, 130, 30));
+        aziz.setText("AZIZ");
+        getContentPane().add(aziz, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 250, 200, 40));
 
-        jButton2.setText("ICUL");
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
+        ikhul.setText("ICUL");
+        ikhul.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
+                ikhulActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(515, 140, 130, 30));
+        getContentPane().add(ikhul, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 170, 200, 50));
 
-        jButton3.setText("AZKA");
-        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 140, 140, 30));
+        azka.setText("AZKA");
+        getContentPane().add(azka, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 170, 210, 50));
 
-        jButton4.setText("TONI");
-        jButton4.addActionListener(new java.awt.event.ActionListener() {
+        toni.setText("TONI");
+        toni.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton4ActionPerformed(evt);
+                toniActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 200, 140, 30));
+        getContentPane().add(toni, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 250, 210, 40));
 
-        jButton5.setText("CIALIN");
-        getContentPane().add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(355, 260, 130, 30));
+        cialin.setText("CIALIN");
+        getContentPane().add(cialin, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 320, 210, 50));
 
         pack();
         setLocationRelativeTo(null);
@@ -92,6 +92,7 @@ public class MenuUtama extends javax.swing.JFrame {
     private void cherlyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cherlyActionPerformed
         // TODO add your handling code here:
         new cherlyJFrame().setVisible(true);
+        dispose();
     }//GEN-LAST:event_cherlyActionPerformed
 
     private void btnTutupActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnTutupActionPerformed
@@ -99,13 +100,13 @@ public class MenuUtama extends javax.swing.JFrame {
         System.exit(0);
     }//GEN-LAST:event_btnTutupActionPerformed
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    private void ikhulActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ikhulActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton2ActionPerformed
+    }//GEN-LAST:event_ikhulActionPerformed
 
-    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+    private void toniActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_toniActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton4ActionPerformed
+    }//GEN-LAST:event_toniActionPerformed
 
     /**
      * @param args the command line arguments
@@ -143,13 +144,13 @@ public class MenuUtama extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton aziz;
+    private javax.swing.JButton azka;
     private javax.swing.JButton btnTutup;
     private javax.swing.JButton cherly;
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton5;
+    private javax.swing.JButton cialin;
+    private javax.swing.JButton ikhul;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JButton toni;
     // End of variables declaration//GEN-END:variables
 }
