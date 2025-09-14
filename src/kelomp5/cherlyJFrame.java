@@ -69,7 +69,7 @@ public class cherlyJFrame extends javax.swing.JFrame {
                 tFotoMouseClicked(evt);
             }
         });
-        getContentPane().add(tFoto, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 100, 170, 210));
+        getContentPane().add(tFoto, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 100, 150, 210));
 
         jLabel7.setForeground(new java.awt.Color(204, 255, 255));
         jLabel7.setText(":  Cherly Ma'rifatul Ulwiyah");
