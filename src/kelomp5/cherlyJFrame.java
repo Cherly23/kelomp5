@@ -41,23 +41,27 @@ public class cherlyJFrame extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
-        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        getContentPane().setLayout(null);
 
         jLabel3.setForeground(new java.awt.Color(204, 255, 255));
         jLabel3.setText("Nama ");
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 140, -1, -1));
+        getContentPane().add(jLabel3);
+        jLabel3.setBounds(340, 140, 35, 16);
 
         jLabel4.setForeground(new java.awt.Color(204, 255, 255));
         jLabel4.setText("NIM");
-        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 170, -1, -1));
+        getContentPane().add(jLabel4);
+        jLabel4.setBounds(340, 170, 23, 16);
 
         jLabel5.setForeground(new java.awt.Color(204, 255, 255));
         jLabel5.setText("Alamat");
-        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 200, -1, -1));
+        getContentPane().add(jLabel5);
+        jLabel5.setBounds(340, 200, 37, 16);
 
         jLabel6.setForeground(new java.awt.Color(204, 255, 255));
         jLabel6.setText("Link Github");
-        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 230, -1, -1));
+        getContentPane().add(jLabel6);
+        jLabel6.setBounds(340, 230, 59, 16);
 
         tFoto.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         tFoto.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -69,36 +73,44 @@ public class cherlyJFrame extends javax.swing.JFrame {
                 tFotoMouseClicked(evt);
             }
         });
-        getContentPane().add(tFoto, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 100, 150, 210));
+        getContentPane().add(tFoto);
+        tFoto.setBounds(170, 100, 150, 210);
 
         jLabel7.setForeground(new java.awt.Color(204, 255, 255));
         jLabel7.setText(":  Cherly Ma'rifatul Ulwiyah");
-        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 140, -1, -1));
+        getContentPane().add(jLabel7);
+        jLabel7.setBounds(420, 140, 139, 16);
 
         jLabel8.setForeground(new java.awt.Color(204, 255, 255));
         jLabel8.setText(":  https://github.com/Cherly23/kelomp5.git");
-        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 230, 270, -1));
+        getContentPane().add(jLabel8);
+        jLabel8.setBounds(420, 230, 270, 16);
 
         jLabel9.setForeground(new java.awt.Color(204, 255, 255));
         jLabel9.setText(":  202457201017");
-        getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 170, 140, -1));
+        getContentPane().add(jLabel9);
+        jLabel9.setBounds(420, 170, 140, 16);
 
         jLabel10.setForeground(new java.awt.Color(204, 255, 255));
         jLabel10.setText(":  Ds.Sombron Loceret Nganjuk");
-        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 200, -1, -1));
+        getContentPane().add(jLabel10);
+        jLabel10.setBounds(420, 200, 165, 16);
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(204, 255, 255));
         jLabel1.setText("PROFIL CHERLY");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 30, 140, 50));
+        getContentPane().add(jLabel1);
+        jLabel1.setBounds(100, 30, 140, 50);
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/power back.png"))); // NOI18N
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 310, -1, 50));
+        getContentPane().add(jLabel2);
+        jLabel2.setBounds(370, 310, 52, 50);
 
         jLabel12.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/PPT Netral.jpeg"))); // NOI18N
+        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/PPT Netral.jpeg"))); // NOI18N
         jLabel12.setRequestFocusEnabled(false);
-        getContentPane().add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 700, -1));
+        getContentPane().add(jLabel12);
+        jLabel12.setBounds(0, 0, 700, 400);
 
         btnTutup.setBackground(new java.awt.Color(0, 51, 51));
         btnTutup.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
@@ -109,7 +121,8 @@ public class cherlyJFrame extends javax.swing.JFrame {
                 btnTutupActionPerformed(evt);
             }
         });
-        getContentPane().add(btnTutup, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 310, 50, 50));
+        getContentPane().add(btnTutup);
+        btnTutup.setBounds(370, 310, 50, 50);
 
         pack();
         setLocationRelativeTo(null);
