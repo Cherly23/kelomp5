@@ -75,7 +75,7 @@ public class AzizJFrame extends javax.swing.JFrame {
         jLabel1.setBackground(new java.awt.Color(51, 51, 51));
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(204, 255, 255));
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\user\\Downloads\\WhatsApp Image 2025-09-13 at 14.16.12.jpeg")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/WhatsApp Image 2025-09-13 at 14.16.12.jpeg"))); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 400));
 
         jButton1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
