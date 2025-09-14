@@ -26,17 +26,25 @@ public class icul extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel1 = new javax.swing.JLabel();
+        LinkGithub = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
+        ProfilIchul = new javax.swing.JLabel();
+        Nama = new javax.swing.JLabel();
+        NIM = new javax.swing.JLabel();
+        Alamat = new javax.swing.JLabel();
+        Nama1 = new javax.swing.JLabel();
+        NIM1 = new javax.swing.JLabel();
+        Alamat1 = new javax.swing.JLabel();
+        Alamat2 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setFont(new java.awt.Font("Segoe UI Black", 0, 24)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(102, 204, 255));
-        jLabel1.setText("PROFIL ICHUL");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 40, 210, 28));
+        LinkGithub.setFont(new java.awt.Font("Segoe UI Black", 0, 14)); // NOI18N
+        LinkGithub.setForeground(new java.awt.Color(102, 204, 255));
+        LinkGithub.setText("Link Github :");
+        getContentPane().add(LinkGithub, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 220, 90, 28));
 
         jLabel3.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kelomp5/ich.jpg"))); // NOI18N
@@ -45,6 +53,43 @@ public class icul extends javax.swing.JFrame {
         jLabel3.setFocusable(false);
         jLabel3.setRequestFocusEnabled(false);
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 110, 160, 200));
+
+        ProfilIchul.setFont(new java.awt.Font("Segoe UI Black", 0, 24)); // NOI18N
+        ProfilIchul.setForeground(new java.awt.Color(102, 204, 255));
+        ProfilIchul.setText("PROFIL ICHUL");
+        getContentPane().add(ProfilIchul, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 40, 210, 28));
+
+        Nama.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        Nama.setForeground(new java.awt.Color(102, 204, 255));
+        Nama.setText("Achmad Muslichul Anwar");
+        getContentPane().add(Nama, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 110, 190, 28));
+
+        NIM.setForeground(new java.awt.Color(102, 204, 255));
+        NIM.setText("202457201002");
+        getContentPane().add(NIM, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 140, 130, 28));
+
+        Alamat.setForeground(new java.awt.Color(102, 204, 255));
+        Alamat.setText("Kec. Tanjunganom");
+        getContentPane().add(Alamat, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 200, 200, 28));
+
+        Nama1.setFont(new java.awt.Font("Segoe UI Black", 0, 14)); // NOI18N
+        Nama1.setForeground(new java.awt.Color(102, 204, 255));
+        Nama1.setText("Nama          :");
+        getContentPane().add(Nama1, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 110, 90, 28));
+
+        NIM1.setFont(new java.awt.Font("Segoe UI Black", 0, 14)); // NOI18N
+        NIM1.setForeground(new java.awt.Color(102, 204, 255));
+        NIM1.setText("NIM             :");
+        getContentPane().add(NIM1, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 140, 90, 28));
+
+        Alamat1.setFont(new java.awt.Font("Segoe UI Black", 0, 14)); // NOI18N
+        Alamat1.setForeground(new java.awt.Color(102, 204, 255));
+        Alamat1.setText("Alamat        :");
+        getContentPane().add(Alamat1, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 170, 90, 28));
+
+        Alamat2.setForeground(new java.awt.Color(102, 204, 255));
+        Alamat2.setText("Dsn. Krajan Patuk Ds. Kampungbaru");
+        getContentPane().add(Alamat2, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 170, 200, 28));
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kelomp5/WhatsApp Image 2025-09-14 at 14.26.49.jpeg"))); // NOI18N
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 700, 400));
@@ -88,7 +133,15 @@ public class icul extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel Alamat;
+    private javax.swing.JLabel Alamat1;
+    private javax.swing.JLabel Alamat2;
+    private javax.swing.JLabel LinkGithub;
+    private javax.swing.JLabel NIM;
+    private javax.swing.JLabel NIM1;
+    private javax.swing.JLabel Nama;
+    private javax.swing.JLabel Nama1;
+    private javax.swing.JLabel ProfilIchul;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     // End of variables declaration//GEN-END:variables
