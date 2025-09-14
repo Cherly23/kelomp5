@@ -30,13 +30,16 @@ public class icul extends javax.swing.JFrame {
         jLabel3 = new javax.swing.JLabel();
         ProfilIchul = new javax.swing.JLabel();
         Nama = new javax.swing.JLabel();
-        NIM = new javax.swing.JLabel();
+        LinkGithub1 = new javax.swing.JLabel();
         Alamat = new javax.swing.JLabel();
         Nama1 = new javax.swing.JLabel();
         NIM1 = new javax.swing.JLabel();
         Alamat1 = new javax.swing.JLabel();
         Alamat2 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
+        NIM2 = new javax.swing.JLabel();
+        NIM3 = new javax.swing.JLabel();
+        jButton1 = new javax.swing.JButton();
+        tutup = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -47,12 +50,14 @@ public class icul extends javax.swing.JFrame {
         getContentPane().add(LinkGithub, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 220, 90, 28));
 
         jLabel3.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kelomp5/ich.jpg"))); // NOI18N
-        jLabel3.setVerticalAlignment(javax.swing.SwingConstants.TOP);
+        jLabel3.setForeground(new java.awt.Color(60, 63, 65));
+        jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kelomp5/icul.jpeg"))); // NOI18N
+        jLabel3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jLabel3.setDisabledIcon(new javax.swing.ImageIcon(getClass().getResource("/kelomp5/ich.jpg"))); // NOI18N
         jLabel3.setFocusable(false);
         jLabel3.setRequestFocusEnabled(false);
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 110, 160, 200));
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 110, 170, 190));
 
         ProfilIchul.setFont(new java.awt.Font("Segoe UI Black", 0, 24)); // NOI18N
         ProfilIchul.setForeground(new java.awt.Color(102, 204, 255));
@@ -64,9 +69,9 @@ public class icul extends javax.swing.JFrame {
         Nama.setText("Achmad Muslichul Anwar");
         getContentPane().add(Nama, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 110, 190, 28));
 
-        NIM.setForeground(new java.awt.Color(102, 204, 255));
-        NIM.setText("202457201002");
-        getContentPane().add(NIM, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 140, 130, 28));
+        LinkGithub1.setForeground(new java.awt.Color(102, 204, 255));
+        LinkGithub1.setText("https://github.com/mus-max");
+        getContentPane().add(LinkGithub1, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 220, 170, 30));
 
         Alamat.setForeground(new java.awt.Color(102, 204, 255));
         Alamat.setText("Kec. Tanjunganom");
@@ -91,11 +96,35 @@ public class icul extends javax.swing.JFrame {
         Alamat2.setText("Dsn. Krajan Patuk Ds. Kampungbaru");
         getContentPane().add(Alamat2, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 170, 200, 28));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kelomp5/WhatsApp Image 2025-09-14 at 14.26.49.jpeg"))); // NOI18N
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 700, 400));
+        NIM2.setForeground(new java.awt.Color(102, 204, 255));
+        NIM2.setText("202457201002");
+        getContentPane().add(NIM2, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 140, 130, 28));
+
+        NIM3.setForeground(new java.awt.Color(102, 204, 255));
+        getContentPane().add(NIM3, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 220, 130, 30));
+
+        jButton1.setBackground(new java.awt.Color(60, 63, 65));
+        jButton1.setForeground(new java.awt.Color(60, 63, 65));
+        jButton1.setToolTipText("");
+        jButton1.setBorder(null);
+        jButton1.setBorderPainted(false);
+        jButton1.setContentAreaFilled(false);
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 320, 30, 30));
+
+        tutup.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kelomp5/WhatsApp Image 2025-09-14 at 14.26.49.jpeg"))); // NOI18N
+        getContentPane().add(tutup, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 700, 400));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -137,12 +166,15 @@ public class icul extends javax.swing.JFrame {
     private javax.swing.JLabel Alamat1;
     private javax.swing.JLabel Alamat2;
     private javax.swing.JLabel LinkGithub;
-    private javax.swing.JLabel NIM;
+    private javax.swing.JLabel LinkGithub1;
     private javax.swing.JLabel NIM1;
+    private javax.swing.JLabel NIM2;
+    private javax.swing.JLabel NIM3;
     private javax.swing.JLabel Nama;
     private javax.swing.JLabel Nama1;
     private javax.swing.JLabel ProfilIchul;
-    private javax.swing.JLabel jLabel2;
+    private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel tutup;
     // End of variables declaration//GEN-END:variables
 }
