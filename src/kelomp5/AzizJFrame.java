@@ -32,8 +32,8 @@ public class AzizJFrame extends javax.swing.JFrame {
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
-        jButton1 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
+        jButton1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -72,6 +72,12 @@ public class AzizJFrame extends javax.swing.JFrame {
         jLabel7.setText("GITHUB  : https://github.com/Cherly23/kelomp5.git");
         getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 210, 340, -1));
 
+        jLabel1.setBackground(new java.awt.Color(51, 51, 51));
+        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(204, 255, 255));
+        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\user\\Downloads\\WhatsApp Image 2025-09-13 at 14.16.12.jpeg")); // NOI18N
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 400));
+
         jButton1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jButton1.setText("EXIT");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -79,19 +85,14 @@ public class AzizJFrame extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 300, -1, -1));
-
-        jLabel1.setBackground(new java.awt.Color(51, 51, 51));
-        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(204, 255, 255));
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\user\\Downloads\\WhatsApp Image 2025-09-13 at 14.16.12.jpeg")); // NOI18N
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 400));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 310, 50, 40));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
+        dispose();
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
