@@ -107,7 +107,7 @@ public class cherlyJFrame extends javax.swing.JFrame {
         jLabel2.setBounds(370, 310, 52, 50);
 
         jLabel12.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/PPT Netral.jpeg"))); // NOI18N
+        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/Backround.jpeg"))); // NOI18N
         jLabel12.setRequestFocusEnabled(false);
         getContentPane().add(jLabel12);
         jLabel12.setBounds(0, 0, 700, 400);
