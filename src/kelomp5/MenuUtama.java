@@ -83,6 +83,11 @@ public class MenuUtama extends javax.swing.JFrame {
         getContentPane().add(toni, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 250, 210, 40));
 
         cialin.setText("CIALIN");
+        cialin.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cialinActionPerformed(evt);
+            }
+        });
         getContentPane().add(cialin, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 320, 210, 50));
 
         pack();
@@ -107,6 +112,12 @@ public class MenuUtama extends javax.swing.JFrame {
     private void toniActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_toniActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_toniActionPerformed
+
+    private void cialinActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cialinActionPerformed
+        // TODO add your handling code here:
+        this.dispose();
+        new CialinFrame().setVisible(true);
+    }//GEN-LAST:event_cialinActionPerformed
 
     /**
      * @param args the command line arguments
