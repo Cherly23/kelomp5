@@ -91,8 +91,8 @@ public class MenuUtama extends javax.swing.JFrame {
 
     private void cherlyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cherlyActionPerformed
         // TODO add your handling code here:
+        this.dispose();
         new cherlyJFrame().setVisible(true);
-        dispose();
     }//GEN-LAST:event_cherlyActionPerformed
 
     private void btnTutupActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnTutupActionPerformed
