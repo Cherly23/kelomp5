@@ -61,6 +61,11 @@ public class MenuUtama extends javax.swing.JFrame {
         getContentPane().add(cherly, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 320, 200, 50));
 
         aziz.setText("AZIZ");
+        aziz.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                azizActionPerformed(evt);
+            }
+        });
         getContentPane().add(aziz, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 250, 200, 40));
 
         ikhul.setText("ICUL");
@@ -72,6 +77,11 @@ public class MenuUtama extends javax.swing.JFrame {
         getContentPane().add(ikhul, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 170, 200, 50));
 
         azka.setText("AZKA");
+        azka.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                azkaActionPerformed(evt);
+            }
+        });
         getContentPane().add(azka, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 170, 210, 50));
 
         toni.setText("TONI");
@@ -107,10 +117,14 @@ public class MenuUtama extends javax.swing.JFrame {
 
     private void ikhulActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ikhulActionPerformed
         // TODO add your handling code here:
+        this.dispose();
+        new icul().setVisible(true);
     }//GEN-LAST:event_ikhulActionPerformed
 
     private void toniActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_toniActionPerformed
         // TODO add your handling code here:
+        this.dispose();
+        new ToniJFrame().setVisible(true);
     }//GEN-LAST:event_toniActionPerformed
 
     private void cialinActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cialinActionPerformed
@@ -118,6 +132,18 @@ public class MenuUtama extends javax.swing.JFrame {
         this.dispose();
         new CialinFrame().setVisible(true);
     }//GEN-LAST:event_cialinActionPerformed
+
+    private void azizActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_azizActionPerformed
+        // TODO add your handling code here:
+        this.dispose();
+        new AzizJFrame().setVisible(true);
+    }//GEN-LAST:event_azizActionPerformed
+
+    private void azkaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_azkaActionPerformed
+        // TODO add your handling code here:
+        this.dispose();
+        new AzkaJFrame().setVisible(true);
+    }//GEN-LAST:event_azkaActionPerformed
 
     /**
      * @param args the command line arguments

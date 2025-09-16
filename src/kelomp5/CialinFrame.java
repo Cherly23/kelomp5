@@ -45,7 +45,7 @@ public class CialinFrame extends javax.swing.JFrame {
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         tFoto2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        tFoto2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/Gambar WhatsApp 2025-09-13 pukul 14.40.31_30841073.jpg"))); // NOI18N
+        tFoto2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/cialinn.jpeg"))); // NOI18N
         tFoto2.setText("FOTO");
         tFoto2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         tFoto2.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -87,7 +87,7 @@ public class CialinFrame extends javax.swing.JFrame {
 
         jLabel9.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel9.setForeground(new java.awt.Color(204, 255, 255));
-        jLabel9.setText("https://github.com/CialinAlin");
+        jLabel9.setText(": https://github.com/CialinAlin");
         getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 240, 200, -1));
 
         jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
@@ -100,10 +100,10 @@ public class CialinFrame extends javax.swing.JFrame {
         jLabel10.setText("PROFIL CIALIN");
         getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 40, -1, -1));
 
-        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/power back.png"))); // NOI18N
+        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/power back.png"))); // NOI18N
         getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 310, 50, 50));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/Gambar WhatsApp 2025-09-13 pukul 14.16.13_702d1c9a.jpg"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/Backround.jpeg"))); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 700, -1));
 
         jButton2.setBackground(new java.awt.Color(204, 204, 204));

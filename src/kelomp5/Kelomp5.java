@@ -4,6 +4,10 @@
  */
 package kelomp5;
 
+/**
+ *
+ * @author cherly
+ */
 public class Kelomp5 {
 
     /**
