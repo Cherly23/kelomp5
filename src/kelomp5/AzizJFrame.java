@@ -71,8 +71,8 @@ public class AzizJFrame extends javax.swing.JFrame {
         jLabel7.setBackground(new java.awt.Color(0, 0, 0));
         jLabel7.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(204, 255, 255));
-        jLabel7.setText("GITHUB  : https://github.com/Cherly23/kelomp5.git");
-        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 240, 340, -1));
+        jLabel7.setText("GITHUB  : https://github.com/z1boy20");
+        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 236, 340, 20));
 
         jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/WhatsApp_Image_2025-09-14_at_18.22.39-removebg-preview.png"))); // NOI18N
         getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 310, 50, 50));
