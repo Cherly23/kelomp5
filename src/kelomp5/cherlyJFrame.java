@@ -77,7 +77,7 @@ public class cherlyJFrame extends javax.swing.JFrame {
         getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 140, 142, -1));
 
         jLabel8.setForeground(new java.awt.Color(204, 255, 255));
-        jLabel8.setText(":  https://github.com/Cherly23/kelomp5.git");
+        jLabel8.setText(":  https://github.com/Cherly23");
         getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 230, 270, -1));
 
         jLabel9.setForeground(new java.awt.Color(204, 255, 255));
