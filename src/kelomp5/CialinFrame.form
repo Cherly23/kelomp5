@@ -7,7 +7,7 @@
   </Properties>
   <SyntheticProperties>
     <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
-    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
   </SyntheticProperties>
   <AuxValues>
     <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
@@ -30,7 +30,7 @@
       <Properties>
         <Property name="horizontalAlignment" type="int" value="0"/>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/kelomp5/image/Gambar WhatsApp 2025-09-13 pukul 14.40.31_30841073.jpg"/>
+          <Image iconType="3" name="/image/Gambar WhatsApp 2025-09-13 pukul 14.40.31_30841073.jpg"/>
         </Property>
         <Property name="text" type="java.lang.String" value="FOTO"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -152,11 +152,11 @@
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="ff" green="ff" red="cc" type="rgb"/>
         </Property>
-        <Property name="text" type="java.lang.String" value=": https://github.com/Cherly23/kelomp5"/>
+        <Property name="text" type="java.lang.String" value=":  https://github.com/CialinAlin"/>
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="410" y="240" width="-1" height="-1"/>
+          <AbsoluteConstraints x="410" y="240" width="200" height="-1"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -195,7 +195,7 @@
     <Component class="javax.swing.JLabel" name="jLabel11">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/kelomp5/image/power back.png"/>
+          <Image iconType="3" name="/image/power back.png"/>
         </Property>
       </Properties>
       <Constraints>
@@ -207,7 +207,7 @@
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/kelomp5/image/Gambar WhatsApp 2025-09-13 pukul 14.16.13_702d1c9a.jpg"/>
+          <Image iconType="3" name="/image/Gambar WhatsApp 2025-09-13 pukul 14.16.13_702d1c9a.jpg"/>
         </Property>
       </Properties>
       <Constraints>
