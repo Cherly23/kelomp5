@@ -38,10 +38,11 @@ public class icul extends javax.swing.JFrame {
         Alamat2 = new javax.swing.JLabel();
         NIM2 = new javax.swing.JLabel();
         NIM3 = new javax.swing.JLabel();
-        jButton1 = new javax.swing.JButton();
+        back = new javax.swing.JButton();
         tutup = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setUndecorated(true);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         LinkGithub.setFont(new java.awt.Font("Segoe UI Black", 0, 14)); // NOI18N
@@ -52,9 +53,8 @@ public class icul extends javax.swing.JFrame {
         jLabel3.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(60, 63, 65));
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kelomp5/icul.jpeg"))); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/icul.jpeg"))); // NOI18N
         jLabel3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jLabel3.setDisabledIcon(new javax.swing.ImageIcon(getClass().getResource("/kelomp5/ich.jpg"))); // NOI18N
         jLabel3.setFocusable(false);
         jLabel3.setRequestFocusEnabled(false);
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 110, 170, 190));
@@ -103,29 +103,28 @@ public class icul extends javax.swing.JFrame {
         NIM3.setForeground(new java.awt.Color(102, 204, 255));
         getContentPane().add(NIM3, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 220, 130, 30));
 
-        jButton1.setBackground(new java.awt.Color(60, 63, 65));
-        jButton1.setForeground(new java.awt.Color(60, 63, 65));
-        jButton1.setToolTipText("");
-        jButton1.setBorder(null);
-        jButton1.setBorderPainted(false);
-        jButton1.setContentAreaFilled(false);
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        back.setBackground(new java.awt.Color(0, 0, 102));
+        back.setForeground(new java.awt.Color(204, 255, 255));
+        back.setText("BACK");
+        back.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                backActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 320, 30, 30));
+        getContentPane().add(back, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 270, -1, -1));
 
-        tutup.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kelomp5/WhatsApp Image 2025-09-14 at 14.26.49.jpeg"))); // NOI18N
+        tutup.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        tutup.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/WhatsApp Image 2025-09-14 at 14.26.49.jpeg"))); // NOI18N
         getContentPane().add(tutup, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 700, 400));
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void backActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_backActionPerformed
         // TODO add your handling code here:
         dispose();
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }//GEN-LAST:event_backActionPerformed
 
     /**
      * @param args the command line arguments
@@ -174,7 +173,7 @@ public class icul extends javax.swing.JFrame {
     private javax.swing.JLabel Nama;
     private javax.swing.JLabel Nama1;
     private javax.swing.JLabel ProfilIchul;
-    private javax.swing.JButton jButton1;
+    private javax.swing.JButton back;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel tutup;
     // End of variables declaration//GEN-END:variables
