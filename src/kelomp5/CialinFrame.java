@@ -87,7 +87,7 @@ public class CialinFrame extends javax.swing.JFrame {
 
         jLabel9.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel9.setForeground(new java.awt.Color(204, 255, 255));
-        jLabel9.setText(":  https://github.com/CialinAlin");
+        jLabel9.setText("https://github.com/CialinAlin");
         getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 240, 200, -1));
 
         jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
